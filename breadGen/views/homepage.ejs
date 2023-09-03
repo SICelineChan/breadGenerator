@@ -1,0 +1,16 @@
+
+<%- include ("partials/header.ejs") %>
+<% if(locals.TypeFlour && locals.TypeSeeds){ %>
+<h2><%= TypeFlour %></h2>
+<h2><%= TypeSeeds %></h2>
+
+<% } else { %> 
+<h1>Bread Name Generator</h1>
+
+<% } %> 
+
+
+<form action="/submit" method="POST">
+    <input type="submit" value="Generate Bread">
+    
+</form>

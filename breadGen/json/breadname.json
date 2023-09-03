@@ -1,0 +1,7 @@
+[
+  {
+    "flour": ["Rye", "Whole-grain", "All-purpose", "High-Gluten"]
+  },
+  { "seeds": ["Sesame", "Poppy-seeds", "Sunflower-seeds", "Pumpkin-seeds"] },
+  { "protein": ["Ham", "Sausage", "Fishfingers", "Roast-beef"] }
+]
